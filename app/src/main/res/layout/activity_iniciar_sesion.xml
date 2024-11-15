@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IniciarSesion"
+    android:background="@drawable/gradient_background_base_app">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_width="220dp"
+        android:layout_height="218dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="120dp"
+        android:src="@drawable/logoempresa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/logoempresa" />
+
+    <Button
+        android:id="@+id/btm_registrarse"
+        android:layout_width="159dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="23dp"
+        android:textSize="16sp"
+        app:backgroundTint="@null"
+        android:background="@drawable/boton_redondeado_borde"
+        android:onClick="irARegistrarse"
+        android:text="@string/btm_text_registrarse_pantalla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btm_iniciar_sesion"
+        tools:layout_editor_absoluteY="540dp" />
+
+    <EditText
+        android:id="@+id/edt_contraseña_iniciar_sesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/subrayadodetexto"
+        android:ems="10"
+        android:hint="@string/hint_contraseña"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edt_email_iniciar_sesion" />
+
+    <EditText
+        android:id="@+id/edt_email_iniciar_sesion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="20dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/subrayadodetexto"
+        android:ems="10"
+        android:hint="@string/hint_correo"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/btm_iniciar_sesion"
+        android:layout_width="159dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="540dp"
+        android:textSize="17sp"
+        app:backgroundTint="@null"
+        android:background="@drawable/boton_redondeado"
+        android:onClick="irASesionIniciada"
+        android:text="@string/btm_text_iniciar_sesion_pantalla"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

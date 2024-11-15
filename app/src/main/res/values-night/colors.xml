@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FFFFFFFF</color>
+    <color name="white">#FF000000</color>
+    <style name="EstiloTextoEmpresarialMayus">
+        <item name="android:textStyle">bold</item> <!-- Texto en negrita -->
+        <item name="android:fontFamily">sans-serif</item> <!-- Fuente personalizada (Roboto) -->
+        <item name="android:letterSpacing">0.02</item> <!-- Espaciado entre letras -->
+        <item name="android:textAllCaps">true</item> <!-- Texto en mayúsculas -->
+        <item name="android:lineSpacingMultiplier">1.2</item> <!-- Espaciado entre líneas -->
+        <item name="android:textAlignment">center</item> <!-- Alineación central -->
+    </style>
+    <style name="EstiloTextoEmpresarialMinus">
+        <item name="android:textStyle">bold</item> <!-- Texto en negrita -->
+        <item name="android:fontFamily">sans-serif</item> <!-- Fuente personalizada (Roboto) -->
+        <item name="android:letterSpacing">0.02</item> <!-- Espaciado entre letras -->
+        <item name="android:textAllCaps">false</item> <!-- Texto en minúsculas y Mayúsculas -->
+        <item name="android:lineSpacingMultiplier">1.2</item> <!-- Espaciado entre líneas -->
+        <item name="android:textAlignment">center</item> <!-- Alineación central -->
+    </style>
+    <color name="amarillo">#FFFF66</color>
+    <color name="lavanda">#8692f7</color>
+    <color name="verde">#85FF7A</color>
+    <color name="rojoclaro">#FF7A7A</color>
+    <color name="naranja">#FFD17A</color>
+    <color name="azulclaro">#6791E1</color>
+    <color name="azul">#FF243C7B</color>
+    <color name="rojo">#8C030D</color>
+    <color name="subrayadodetexto">#217C7B</color>
+    <color name="subrayadodetextoseleccionado">#2A9677</color>
+    <color name="botonesverdes">#217C7B</color>
+    <color name="botonesgrises">#A5A5A5</color>
+    <color name="status_bar_color_dark">#333333</color>
+    <color name="navigation_bar_color_dark">#333333</color>
+</resources>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ejercicios</string>
+    <string name="btm_text_registrarse_pantalla">Registrarse</string>
+    <string name="btm_text_iniciar_sesion_pantalla">Iniciar Sesion</string>
+
+    <string name="btm_text_registrarse">Registrar</string>
+    <string name="btm_text_iniciar_sesion">Iniciar Sesion</string>
+    <string name="hint_nombres"> Ingrese sus Nombres</string>
+    <string name="hint_correo"> Ingrese su Correo </string>
+    <string name="hint_contraseña"> Ingrese Contraseña </string>
+    <string name="hint_confirmar_contraseña"> Confirmar Contraseña </string>
+    <string name="btn_carrito_de_compras">Carrito de compras</string>
+    <string name="hint_latitud">Latidud</string>
+    <string name="hint_longitud">Longitud</string>
+    <string name="hint_ciudad_pais">Ciudad, País</string>
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "505153527871",
+    "project_id": "ejercicios-a47f4",
+    "storage_bucket": "ejercicios-a47f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505153527871:android:833eca5a0a476cc4b8d88a",
+        "android_client_info": {
+          "package_name": "com.utp.ejercicios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505153527871-llqb52b0e63o7daq60u5ob65ahc8um4u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDsJv5LL8GDqzqXH0NcNQxzRWmXOtRsVuk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505153527871-llqb52b0e63o7daq60u5ob65ahc8um4u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
