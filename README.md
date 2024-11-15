@@ -1,6 +1,6 @@
 # Proyecto de App de Inicio de Sesión
 
-![Logo del Proyecto](https://github.com/CesarEduL/EjerciciosAndroid/blob/main/app/src/main/res/drawable/logoempresa.png)
+![Logo del Proyecto](https://github.com/CesarEduL/EjerciciosAndroid/blob/main/app/src/main/res/drawable/Readme/logoempresa.png)
 
 Este es un proyecto básico de una aplicación de inicio de sesión desarrollado en Android Studio durante mis primeros ciclos universitarios. La app utiliza **Shared Preferences** para almacenar la información del usuario de manera simple y accesible, lo cual puede ser útil para quienes se inician en el desarrollo de aplicaciones móviles.
 
@@ -17,14 +17,14 @@ La aplicación está diseñada para funcionar en dispositivos con Android 7.0 (S
 
 ## Capturas de Pantalla
 
-### Pantalla de Registro
-![Pantalla de Registro](ruta/a/tu/imagen-registro.png)
-
 ### Pantalla de Inicio de Sesión
-![Pantalla de Inicio de Sesión](ruta/a/tu/imagen-inicio-sesion.png)
+![Pantalla de Inicio de Sesión](https://github.com/CesarEduL/EjerciciosAndroid/blob/main/app/src/main/res/drawable/Readme/imagen_2024-11-14_193343286.png)
+
+### Pantalla de Registro
+![Pantalla de Registro](https://github.com/CesarEduL/EjerciciosAndroid/blob/main/app/src/main/res/drawable/Readme/imagen_2024-11-14_193441339.png)
 
 ### Pantalla Principal
-![Pantalla Principal](ruta/a/tu/imagen-principal.png)
+![Pantalla Principal](https://github.com/CesarEduL/EjerciciosAndroid/blob/main/app/src/main/res/drawable/Readme/imagen_2024-11-14_193854043.png)
 
 ## Objetivo
 
